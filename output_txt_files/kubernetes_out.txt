@@ -1,1 +1,14 @@
 <paste log output from Kubernetes-mediated prediction, here>
+
+[Kubernetes output on terminal after the prediction is made]
+
+error: unable to forward port because pod is not running. Current status=Pending
+(.devops) voclabs:~/environment/max-project-4 (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "max-kube-app" already exists
+Docker ID and Image: scorpionrevolver/max-app:v1.0-latest
+NAME           READY   STATUS             RESTARTS   AGE
+max-app        0/1     ImagePullBackOff   0          13m
+max-kube-app   1/1     Running            0          5m53s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
