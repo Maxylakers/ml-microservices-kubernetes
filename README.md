@@ -1,4 +1,6 @@
 <include a CircleCI status badge, here>
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/Maxylakers/ml-microservices-kubernetes/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/Maxylakers/ml-microservices-kubernetes/tree/master)
+
 
 ## Project Overview
 
